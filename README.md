@@ -57,6 +57,6 @@ There exists a number of different constraints that can be used to model puzzles
 
 ## AI Disclosure
 
-AI (in the form of Githubs Autocomplete) was only used towards the end as I began translating the puzzles from deckards video into the `puzzle_n.py` files. The `.md` files, `solver.py` and `constraints.py` file were written without any AI usage. <br>
+AI (in the form of Githubs Autocomplete) was only used towards the end as I began translating the smaller puzzles puzzles for completeness from Deckards video into the `puzzle_n.py` files. The `.md` files, `solver.py` and `constraints.py` file were written without any AI usage. <br>
 The `colors.py` was taken from https://gist.github.com/rene-d/9e584a7dd2935d0f461904b9f2950007 <br>
 The `.gitignore` file was AI generated.
