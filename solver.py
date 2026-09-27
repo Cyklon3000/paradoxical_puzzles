@@ -25,7 +25,7 @@ def solve_with_constraints(constraints: List[Constraint], print_debug: bool = Fa
         
         if is_valid:
             solutions.append(solution.copy())
-            if print_valid and not print_debug:
+            if print_valid:
                 print(f"{Colors.BLUE}Valid solution found: {solution}{Colors.END}")
                 print(output)
             

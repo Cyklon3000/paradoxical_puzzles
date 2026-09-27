@@ -1,22 +1,23 @@
+from abc import abstractmethod
 from typing import Dict, List
-
 class Constraint:
     is_true: bool
     
+    @abstractmethod
     def __init__(self):
         pass
     
+    @abstractmethod
     def get_is_true(self, assignments) -> bool:
-        return assignments[self]
+        return False
 
 
 class ConstraintWrapper(Constraint):
     name: str
     constraint: Constraint
     
-    def __init__(self, name, wrapped_constraint):
+    def __init__(self, name):
         self.name = name
-        self.constraint = wrapped_constraint
     
     def get_is_true(self, assignments: Dict[Constraint, bool]) -> bool:
         return self.constraint.get_is_true(assignments)

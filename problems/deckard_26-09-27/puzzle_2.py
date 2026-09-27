@@ -6,8 +6,8 @@ sys.path.insert(0, main_dir)
 from constraints import *
 from solver import solve_with_constraints
 
-constraint_01: Constraint = ConstraintWrapper("2 is true", None)
-constraint_02: Constraint = ConstraintWrapper("there is exactly one true constraint", None)
+constraint_01: Constraint = ConstraintWrapper("2 is true")
+constraint_02: Constraint = ConstraintWrapper("there is exactly one true constraint")
 
 constraints: List[Constraint] = [constraint_01, constraint_02]
 
