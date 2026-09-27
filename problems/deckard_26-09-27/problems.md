@@ -68,10 +68,10 @@ Another 5 constraint puzzle to handle cases where it is harder to pick out a sta
 
 | Constraints | Solution |
 | --- | --- |
-| 1. Statements 3 & 4 are a different parity. | T |
+| 1. Statements 3 & 4 are a different parity. | F |
 | 2. Statements 1 & 5 are a different parity. | T |
-| 3. Statements 1 & 2 are a same parity. | T |
-| 4. Statements 3 & 5 are a same parity. | T |
+| 3. Statements 1 & 2 are a same parity. | F |
+| 4. Statements 3 & 5 are a same parity. | F |
 | 5. Statements 2 & 4 are a different parity. | T |
 
 Implemented in [puzzle_6.py](puzzle_6.py)
